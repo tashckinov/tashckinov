@@ -26,6 +26,8 @@ header{
     margin-top: 20px;
 }
 .header-button{
+    display: inline-block;
+    text-decoration: none;
     box-shadow: 10px 17px 34px 6px rgba(18, 61, 145, 0.83);
     border-radius: 50px;
     background-color: #ffffff;
@@ -36,6 +38,10 @@ header{
     margin-top: 33px;
     border: 0;
     cursor: pointer;
+    transition: 0.2s;
+}
+.header-button:hover {
+	box-shadow: none;
 }
 header small{
     font-size: 12px;
@@ -133,8 +139,13 @@ footer{
     border-radius: 50px;
     padding: 12px 40px;
     cursor: pointer;
+    transition: 0.2s;
 }
-
+.footer-button:hover{
+    background-color: #fff;
+    color:#3a7dfd;
+}
+/*Адаптивка*/
 @media (max-width: 1200px){
     .header-pretitle {
 	    margin-top: 60px;
@@ -163,6 +174,7 @@ footer{
     .footer-button {
 	    font-size: 14px;
         padding: 8px 35px;
+        text-decoration: none;
     }
 }
 @media (max-width: 768px){
