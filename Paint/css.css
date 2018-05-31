@@ -1,0 +1,13 @@
+body{
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+div{
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    background: #000000;
+    border-radius: 50%;
+    user-select: none;
+}
